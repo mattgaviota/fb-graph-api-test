@@ -3,6 +3,11 @@
 Simple endpoint to retrieve a Facebook public user profile by id made
 with [Laravel Framework](https://laravel.com/).
 
+## Requisites
+
+In order to try this application you need install [composer](https://getcomposer.org/)
+and you need the Facebook API Token from a [Facebook App](https://developers.facebook.com).
+
 ## Install the Application
 
 Clone the repository
