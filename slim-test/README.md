@@ -1,6 +1,7 @@
 # Facebook API Graph test
 
-Simple endpoint to retrieve a public Facebook user profile by id.
+Simple endpoint to retrieve a Facebook public user profile by id made
+with [Slim Framework](https://www.slimframework.com/).
 
 ## Install the Application
 
@@ -12,12 +13,25 @@ Enter to the directory of the app
 
     cd fb-graph-api-test/slim-test
 
-To run the application in development, you can also run this command.
+To run the application in development, you need install the dependencies.
 
-	php composer.phar start
+    composer install
+
+Run this command to start a local server
+
+    composer start
 
 Run this command to run the test suite
 
-	php composer.phar test
+    composer test
 
-That's it! Now go build something cool.
+You can test the endpoint `http://localhost:8080/profile/facebook/{id}`
+
+## Using docker
+
+You can try the application using docker. The steps are the same as above except
+instead of using `composer start` you can use
+
+    docker-compose up -d
+
+and then testing the endpoint.
