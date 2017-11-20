@@ -6,7 +6,8 @@ with [Laravel Framework](https://laravel.com/).
 ## Requisites
 
 In order to try this application you need install [composer](https://getcomposer.org/)
-and you need the Facebook API Token from a [Facebook App](https://developers.facebook.com).
+and you need the Facebook API Token from a [Facebook App](https://developers.facebook.com)
+configured in the `.env file`.
 
 ## Install the Application
 
